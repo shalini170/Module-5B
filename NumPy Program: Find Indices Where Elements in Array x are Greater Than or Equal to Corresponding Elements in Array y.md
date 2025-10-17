@@ -14,8 +14,16 @@ To write a Python program using **NumPy** that finds the indices where elements 
 
 ## 🧾 Program
 
-Add code here
+import numpy as np  
+x=eval(input()) 
+y=eval(input()) 
+l1=np.array(x) 
+l2=np.array(y) 
+print(np.where(l1>l2)) 
+print(np.where(l1==l2))
 
 ## Output
+<img width="900" height="249" alt="image" src="https://github.com/user-attachments/assets/47ef0ac5-2d7e-4e65-b850-e62212ea91a2" />
 
 ## Result
+Thus the python program for element wise comparison between two numpy array has been implemented and executed successfully.
